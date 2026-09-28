@@ -2,7 +2,7 @@
 
 Cure Please no longer uses EliteAPI or its own CurePlease_addon. It talks to the Windower 4 **cortana** addon through `CortanaIPC.dll`.
 
-1. Install the addon from its canonical source — `ContanaXIHealer/WindowerLuas/cortana` — into
+1. Install the addon from its canonical source — https://github.com/mocoloco8/CortanaIPC-Windower-Lua — into
    `Windower4/addons/cortana`. That is the copy that is maintained; every app sharing the addon
    (Cure Please included) needs the current one, and an older copy silently drops feeds Cure Please
    depends on: `SAB` (known abilities — without it no job ability ever fires) and `CASTRES`
